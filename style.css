@@ -1,0 +1,66 @@
+<style type="text/css">
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  }
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.other {
+  padding: 2px;
+  background: #96d5e8;
+  color: #283747 ;
+}
+h1 {
+  color: #1BA6A8;
+  font-size: 60px;
+  font-family: 'Tahoma', serif;
+}
+h3 {
+  color: #1b64a8;
+  font-size: 40px;
+  font-family: 'Arial', sans-serif;
+}
+.caption {
+   color: #1BA6A8;
+   }
+.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.name {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.nav-link {
+  padding: 0 20px;
+  line-height: 60px;
+  font-size: 25px;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section {
+  width: 50%;
+  background-color: #b7b4de;
+  }
+.background1 {
+  background-color: #96d5e8;
+}
+@media (max-width: 768px) {
+  .section {
+    max-width: 100%;
+  }
+}
+</style>
